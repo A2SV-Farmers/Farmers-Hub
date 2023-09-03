@@ -29,23 +29,23 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
+        title = "Farm Hub";
         metaDescription = "";
         break;
       case "/app":
-        title = "";
+        title = "Farm Hub";
         metaDescription = "";
         break;
       case "/cart":
-        title = "";
+        title = "Farm Hub";
         metaDescription = "";
         break;
       case "/login":
-        title = "";
+        title = "Farm Hub";
         metaDescription = "";
         break;
-      case "/sign-up":
-        title = "";
+      case "/signup":
+        title = "Farm Hub";
         metaDescription = "";
         break;
     }

@@ -1,0 +1,28 @@
+.product {
+  background-color: aliceblue;
+  width: 250px;
+  border-radius: 20px;
+  margin: 15px;
+}
+.product img {
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #3cb46e;
+}
+.info h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+.info p {
+  margin-bottom: 5px;
+  color: #30714b;
+  font-weight: 700;
+}
