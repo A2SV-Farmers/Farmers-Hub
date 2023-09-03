@@ -1,0 +1,13 @@
+.index {
+  width: 100%;
+  border-radius: var(--br-mini);
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #409e6733;
+}
+.appContent {
+  width: 90%;
+  border-radius: var(--br-mini);
+  margin: 0 auto;
+  background-color: #3cb46e33;
+}

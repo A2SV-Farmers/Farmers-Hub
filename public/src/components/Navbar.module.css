@@ -1,0 +1,24 @@
+.navBarItems {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.navBarItems img {
+  width: 45px;
+}
+
+.navBarItems input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-radius: var(--br-mini);
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+}
