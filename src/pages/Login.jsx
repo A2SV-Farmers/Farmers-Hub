@@ -26,7 +26,7 @@ const Login = () => {
           </div>
         </div>
         <p className={styles.footer}>
-          Create an account? <NavLink to="signup">Sign Up</NavLink>
+          Create an account? <NavLink to="/app/signup">Sign Up</NavLink>
         </p>
       </form>
     </div>
