@@ -6,6 +6,8 @@ import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import AppLayout from "./pages/AppLayout";
+import './styles/App.css'
+
 
 function App() {
   return (

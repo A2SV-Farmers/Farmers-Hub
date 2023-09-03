@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "./Login.module.css";
 
 const Login = () => {
@@ -22,7 +22,10 @@ const Login = () => {
             </div>
           </div>
           <div className={styles.submit}>
-            <button className={styles.button}>Log In</button>
+            <Link to="/index">
+              <button className={styles.button}>Log In</button>
+            </Link>
+
           </div>
         </div>
         <p className={styles.footer}>

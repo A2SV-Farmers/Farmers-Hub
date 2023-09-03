@@ -37,7 +37,9 @@ const SignUp = () => {
           </div>
         </div>
         <div className={styles.submit}>
+        <Link to="/index">
           <button className={styles.button}>Sign Up</button>
+          </Link>
         </div>
       </div>
       <p className={styles.footer}>
