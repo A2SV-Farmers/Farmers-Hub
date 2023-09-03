@@ -1,0 +1,13 @@
+.appLayout {
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-lightgoldenrodyellow);
+  width: 100%;
+  height: 100vh;
+  font-size: var(--font-size-xl);
+  color: var(--color-seagreen);
+  font-family: var(--font-inria-sans);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

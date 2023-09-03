@@ -1,25 +1,11 @@
 .logIn {
-  position: relative;
-  border-radius: var(--br-mini);
-  background-color: var(--color-lightgoldenrodyellow);
-  width: 100%;
-  height: 100vh;
-  font-size: var(--font-size-xl);
-  color: var(--color-seagreen);
-  font-family: var(--font-inria-sans);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.loginChild {
   border-radius: var(--br-mini);
   color: var(--color-seagreen);
   font-size: var(--font-size-xl);
   margin: 0 auto;
   background-color: var(--color-gray);
   width: 35%;
-  height: 600px;
+  height: 500px;
   padding: 50px;
 }
 
@@ -43,16 +29,18 @@
 .loginItem input {
   border-radius: var(--br-mini);
   background-color: #3cb46e33;
-  height: 50px;
+  height: 40px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 18px;
 }
 
 .loginItem label {
   padding-left: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
 }
 .footer {
   text-align: center;
@@ -64,7 +52,6 @@
 }
 
 .button {
-  margin: 20px;
   display: inline-block;
   padding: 12px 24px;
   font-size: 20px;
